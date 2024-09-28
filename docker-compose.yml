@@ -14,7 +14,7 @@ services:
 
   server:
     container_name: wheel-project-server
-    build: .
+    image: ghcr.io/minjaekimmm/wheel-project:latest
     restart: always
     environment:
       - DOMAIN=${DOMAIN}
